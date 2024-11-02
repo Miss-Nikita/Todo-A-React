@@ -36,7 +36,7 @@ settasks(copytask)
       return (
         <li key={index} className="mb-5 flex justify-between items-center border rounded-xl p-5">
           <div className="flex items-center">
-            <div onClick={(e) => completeHandler(e, index)} className="mr-4 rounded-full w-[30px] h-[30px] border border-green-700"></div>
+            <div onClick={(e) => completeHandler(e, index)} className= {`mr-4 rounded-full w-[30px] h-[30px] border border-green-700`}></div>
             <h1 className="text-3xl font-extrabold text-white">{task.title}</h1>
           </div>
   
